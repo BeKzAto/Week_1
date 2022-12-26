@@ -1,0 +1,41 @@
+.d1 {
+  margin: 20px;
+  border: 6px solid rgb(48, 165, 215);
+  border-radius: 30px;
+  width: 500px;
+  height: 500px;
+  margin-left: 450px;
+  background-color: rgb(230, 162, 37);
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  color: white;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+input {
+  border: 3px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  top: 50px;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+button {
+  border: 3px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  top: 50px;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  margin-left: 1px;
+  font-size: 20px;
+}

@@ -1,0 +1,88 @@
+/* псевдоклассы - это ключивое слово, добавленное к сселектору, которые определяет его определенное состояние */
+
+/* 
+cилектор:псевдокласс{
+    стили
+} */
+
+/* псевдоклассы для стилизации ссылки, которую не посетили */
+a:link {
+  color: chartreuse;
+}
+
+/* псевдоклассы для стилизации ссылки, которую посетили */
+a:visited {
+  color: gold;
+}
+
+/* псевдоклассы для стилизации ссылки, меняется при наведении */
+a:hover {
+  color: red;
+}
+
+/* псевдоклассы для стилизации ссылки, меняется во время нажатия */
+a:active {
+  color: gray;
+}
+
+/* input */
+input:focus {
+  background-color: green;
+}
+
+/* используя target - можно выделить ту часть страницы, на которую перенаправила вас ссылка  */
+p:target {
+  border: 2px solid;
+  background-color: bisque;
+}
+
+/* first-child, last-child, nth-child */
+.list li:first-child {
+  color: coral;
+}
+
+/* окрашивает последний child */
+.list li:last-child {
+  color: blue;
+}
+
+.list li:nth-child(3) {
+  color: darkmagenta;
+}
+
+.list li:nth-child(even) {
+  color: chartreuse;
+}
+
+.list li:nth-child(odd) {
+  background-color: rgb(248, 239, 75);
+}
+
+.list li:nth-child(3n) {
+  border: 2px dotted black;
+}
+
+.list li:nth-child(3n + 1) {
+  background-color: gray;
+}
+
+/* Псевдоэлемент */
+span::before {
+  content: "Word";
+}
+
+.text::first-letter {
+  color: gold;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.text::first-line {
+  color: red;
+  text-transform: uppercase;
+}
+
+.text::selection {
+  background-color: yellow;
+  color: blueviolet;
+}

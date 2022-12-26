@@ -1,0 +1,38 @@
+.red {
+  text-align: center;
+  display: block;
+  margin: 7px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.green {
+  text-align: center;
+  display: block;
+  margin: 7px;
+  margin-left: 150px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.yellow {
+  text-align: center;
+  display: block;
+  margin: 7px;
+  margin-left: 270px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.blue {
+  text-align: center;
+  display: block;
+  margin: 7px;
+  margin-left: 400px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}

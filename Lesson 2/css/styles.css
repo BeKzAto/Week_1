@@ -1,0 +1,54 @@
+/* ! универсальный селектор */
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ! селектор по тегу */
+h1 {
+  color: purple;
+  margin: 30px 20px;
+  /* margin-top: 80px; */
+  padding: 20px 50px;
+  border: 2px solid goldenrod;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ! селектор по атрибуту */
+[name] {
+  color: rgb(0, 43, 214);
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+}
+
+/* ! селектор по классу */
+.classSpan {
+  background-color: aqua !important;
+  color: sienna;
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+}
+
+#span {
+  background-color: rgb(71, 242, 8);
+}
+
+/* ! селектор по id */
+
+#block-1 {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: red;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,97 @@
+body {
+  background-color: #4fbfa5;
+}
+
+nav {
+  width: 1100px;
+  margin: 0px auto;
+}
+
+nav::before {
+  content: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #4fbfa5;
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  height: 50px;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  color: white;
+  display: block;
+  height: 50px;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+ul li a:hover {
+  background-color: rgb(84, 141, 130);
+}
+
+.z {
+  font-size: medium;
+  border: 0px solid white;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+ul button a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+img {
+  position: relative;
+  top: 40px;
+  left: 530px;
+  width: 700px;
+  height: 500px;
+}
+
+h1 {
+  color: white;
+  margin-top: -350px;
+  margin-left: 80px;
+}
+
+p {
+  color: white;
+  margin-top: 40px;
+  margin-right: 920px;
+  margin-left: 80px;
+}
+
+.button1 {
+  color: white;
+  background-color: #00868a;
+  font-size: large;
+  margin-left: 80px;
+  margin-top: 30px;
+  border: 1px solid #00868a;
+}
+
+button a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  line-height: 50px;
+  width: 150px;
+}
